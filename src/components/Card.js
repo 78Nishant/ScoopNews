@@ -6,9 +6,7 @@ function Card(props) {
   const newsLink=props.link;
   var news=[];
   var count=0;
-  // for(let i=0;i<props.total;i++){
-  //   news[i]=arr[i];
-  // }
+
   arr.map((e)=>{
     if(count<props.total){
     news.push(e);
